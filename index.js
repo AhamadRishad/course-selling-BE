@@ -1,8 +1,8 @@
 import express from "express";
 import cookieParser from "cookie-parser";
-import userRouter from "../routes/userRoutes.js";
-import instructorRouter from "../routes/instructorRoutes.js";
-import {connectDb} from "../config/db.js"
+import userRouter from "./routes/userRoutes.js";
+import instructorRouter from "./routes/instructorRoutes.js";
+import {connectDb} from "./config/db.js"
 // require("dotenv").config()
 
 
